@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="mystyle.css">
+    <head>Thomas O'Toole</head>
     <body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AboutMe.html">About</a></li>
+                <li><a href="">Test1</a></li>
+                <li><a href="">Test2</a></li>
+            </ul>
+        </nav>
+        <div id="twitch-embed"></div>
+
+        <!-- Load the Twitch embed script -->
+        <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+      
+        <!-- Create a Twitch.Player object. This will render within the placeholder div -->
+        <script type="text/javascript">
+          document.addEventListener("DOMContentLoaded", function() {
+            new Twitch.Player("twitch-embed", {
+              channel: "kaicenat",
+              parent: ["yourdomain.com"]
+            });
+          });
+        </script>
         <p>Random Filler</p>
     </body>
 </html>
