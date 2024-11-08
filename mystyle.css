@@ -34,3 +34,11 @@ h1{
     height: 400px; /* Set the height to 1080 pixels */
     background-color: black; /* Optional: Add a background color to see the div */
   }
+#chat-embed{
+  
+  top: 100px; /* Adjust this value to lower the embed */
+    right: 50px; /* Adjust this value to move the embed off the left side */
+    width: 700px; /* Set the width to 1920 pixels */
+    height: 400px; /* Set the height to 1080 pixels */
+    background-color: black; 
+}

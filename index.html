@@ -7,6 +7,7 @@
     
    
     <main>
+
         <div id="twitch-embed"></div>
 
         <!-- Load the Twitch embed script -->
@@ -17,10 +18,15 @@
           document.addEventListener("DOMContentLoaded", function() {
             new Twitch.Player("twitch-embed", {
               channel: "kaicenat",
-              parent: ["yourdomain.com"]
+              parent: ["https://thomasotoole3.github.io/"],
+              width: "700px",
+              height: "400px%"
             });
           });
         </script>
+        <iframe src="https://www.twitch.tv/embed/kaicenat/chat?parent=www.example.com" style="height:200px;width:300px;" title="Iframe Example"></iframe>
+       
+       
         
     </main>
 </body>
