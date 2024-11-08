@@ -1,44 +1,26 @@
-body{
-    margin: 0px;
+/* mystyle.css */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Light background color */
 }
-h1{
-    text-align:center;
-}
-.navbar ul{
-    list-style-type: none;
-    background-color: hsl(0, 0%, 25%);
-    padding: 0px;
-    margin: opx;
-    overflow: hidden;
-}
-  .navbar a{
-    color: white;
-    text-decoration: non;
-    padding: 15px;
-    display: block;
-    text-align: center;
-  }
-  .navbar a:hover{
-    background-color: hsl(0, 0%, 10%);
-  }
-  .navbar li{
-    float:left
-  }
-  
 
-  #twitch-embed {
-    position: relative; /* Use relative positioning */
-    top: 100px; /* Adjust this value to lower the embed */
-    left: 50px; /* Adjust this value to move the embed off the left side */
-    width: 700px; /* Set the width to 1920 pixels */
-    height: 400px; /* Set the height to 1080 pixels */
-    background-color: black; /* Optional: Add a background color to see the div */
-  }
-#chat-embed{
-  
-  top: 100px; /* Adjust this value to lower the embed */
-    right: 50px; /* Adjust this value to move the embed off the left side */
-    width: 700px; /* Set the width to 1920 pixels */
-    height: 400px; /* Set the height to 1080 pixels */
-    background-color: black; 
+.container {
+  width: 80%; /* Adjust the width as needed */
+  height: 80%; /* Adjust the height as needed */
+  padding: 20px; /* Padding around the container */
+  background-color: white; /* Background color for the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#twitch-embed {
+  width: 100%;
+  height: 100%;
 }
