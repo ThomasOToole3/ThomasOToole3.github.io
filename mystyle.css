@@ -24,15 +24,13 @@ h1{
   .navbar li{
     float:left
   }
-  .video-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
-}
+  
 
-#twitch-embed {
-    width: 1920px; /* Set the width to 1920 pixels */
-    height: 1080px; /* Set the height to 1080 pixels */
+  #twitch-embed {
+    position: relative; /* Use relative positioning */
+    top: 100px; /* Adjust this value to lower the embed */
+    left: 50px; /* Adjust this value to move the embed off the left side */
+    width: 700px; /* Set the width to 1920 pixels */
+    height: 400px; /* Set the height to 1080 pixels */
     background-color: black; /* Optional: Add a background color to see the div */
-}
+  }
